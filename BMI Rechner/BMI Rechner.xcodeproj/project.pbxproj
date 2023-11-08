@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		563848712AF03E0F003D7C4D /* BMI_RechnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563848702AF03E0F003D7C4D /* BMI_RechnerApp.swift */; };
-		563848732AF03E0F003D7C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563848722AF03E0F003D7C4D /* ContentView.swift */; };
+		563848732AF03E0F003D7C4D /* BMIRechnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563848722AF03E0F003D7C4D /* BMIRechnerView.swift */; };
 		563848752AF03E11003D7C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563848742AF03E11003D7C4D /* Assets.xcassets */; };
 		563848782AF03E11003D7C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563848772AF03E11003D7C4D /* Preview Assets.xcassets */; };
+		565631B02AFADCAA00093A1B /* BMIEingabeModul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565631AF2AFADCAA00093A1B /* BMIEingabeModul.swift */; };
+		565631B22AFADFF000093A1B /* BIMEingabeListe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565631B12AFADFF000093A1B /* BIMEingabeListe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5638486D2AF03E0F003D7C4D /* BMI Rechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Rechner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563848702AF03E0F003D7C4D /* BMI_RechnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_RechnerApp.swift; sourceTree = "<group>"; };
-		563848722AF03E0F003D7C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		563848722AF03E0F003D7C4D /* BMIRechnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIRechnerView.swift; sourceTree = "<group>"; };
 		563848742AF03E11003D7C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		563848772AF03E11003D7C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		565631AF2AFADCAA00093A1B /* BMIEingabeModul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIEingabeModul.swift; sourceTree = "<group>"; };
+		565631B12AFADFF000093A1B /* BIMEingabeListe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIMEingabeListe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				563848702AF03E0F003D7C4D /* BMI_RechnerApp.swift */,
-				563848722AF03E0F003D7C4D /* ContentView.swift */,
+				563848722AF03E0F003D7C4D /* BMIRechnerView.swift */,
+				565631B12AFADFF000093A1B /* BIMEingabeListe.swift */,
+				565631AF2AFADCAA00093A1B /* BMIEingabeModul.swift */,
 				563848742AF03E11003D7C4D /* Assets.xcassets */,
 				563848762AF03E11003D7C4D /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563848732AF03E0F003D7C4D /* ContentView.swift in Sources */,
+				565631B22AFADFF000093A1B /* BIMEingabeListe.swift in Sources */,
+				563848732AF03E0F003D7C4D /* BMIRechnerView.swift in Sources */,
+				565631B02AFADCAA00093A1B /* BMIEingabeModul.swift in Sources */,
 				563848712AF03E0F003D7C4D /* BMI_RechnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,19 @@ import SwiftUI
 struct BMI_RechnerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Group {
+                TabView {
+                    BMIRechnerView()
+                        .tabItem {
+                            Text("Rechner")
+                        }
+                    BMIEngabeListeView()
+                        .tabItem {
+                            Text("Liste")
+                        }
+                }
+            }
+                .modelContainer(for: [BMIEingabeModul.self])
         }
     }
 }
